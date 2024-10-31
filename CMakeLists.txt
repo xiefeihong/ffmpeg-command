@@ -12,13 +12,13 @@ file(GLOB FFTOOLS_SRC
 )
 
 include_directories(
-        /usr/local/ffmpeg-7.1/include
+        /usr/local/ffmpeg-6.1.2/include
         include/fftools
         include
 )
 
 link_directories(
-        /usr/local/ffmpeg-7.1/lib
+        /usr/local/ffmpeg-6.1.2/lib
 )
 
 add_library(ffmpeg SHARED
